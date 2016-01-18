@@ -1,9 +1,13 @@
-# helpdesk
+# OPEN VS CLOSED
 
-An express app with bugs for students to fix as an exercise to learn both routing and express CRUD
+### Instructions:
 
-# Instructions:
+**This is the "open_vs_closed" branch.**
 
-Fork and clone this repo.
+STORIES:
 
-Each of the 3 branches contain bugs and instructions on what needs to be fixed in that branch.
+As a user, when I submit a new ticket, the ticket should be flagged as "open" on the home page "/", not closed.
+
+As a user, when I click on "closed tickets", I should see a list of closed tickets.
+
+As a user, I should be able to mark a ticket "closed" from the edit page. 
