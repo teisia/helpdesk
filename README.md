@@ -1,13 +1,13 @@
-# OPEN VS CLOSED
+# ITERATION
 
 ### Instructions:
 
-**This is the "open_vs_closed" branch.**
+**This is the "iteration" branch.**
 
 STORIES:
 
-As a user, when I submit a new ticket, the ticket should be flagged as "open" on the home page "/", not closed.
+As a user, when I go to either edit or create a new ticket, I should see the "priorities" listed as seen in the mockup , while maintaining the "iteraiton" approach of looping through the priority values in the code. 
 
-As a user, when I click on "closed tickets", I should see a list of closed tickets.
+( see image: )
 
-As a user, I should be able to mark a ticket "closed" from the edit page. 
+![](https://github.com/Nmuta/helpdesk/blob/iteration/public/images/iteration.jpg)
