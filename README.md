@@ -21,7 +21,7 @@ As you fix each bug, `git add, commit` your work
 
 <br>
 <br>
-### DO THE BRANCHES IN THIS ORDER: 
+### ❗️ DO THE BRANCHES IN THIS ORDER: 
 
 1. OPEN VS. CLOSED
 2. ITERATION
