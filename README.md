@@ -19,10 +19,10 @@ This app contains 3 branches.  Your mission is to `git checkout` each branch, on
 As you fix each bug, `git add, commit` your work
 (use concise, clear commit messages that communicate what you fixed).
 
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 **Note**
 When you are inside of the app, click on the ticket id to edit a ticket.  See image below: 
 
