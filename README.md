@@ -21,6 +21,17 @@ As you fix each bug, `git add, commit` your work
 
 <br>
 <br>
+### DO THE BRANCHES IN THIS ORDER: 
+
+1. OPEN VS. CLOSED
+2. ITERATION
+3. BROKEN 
+
+
+You DO NOT have to fix the same problem twice. Read the instructions for each branch and ONLY  work on what the README tells you for each branch.  
+
+<br>
+<br>
 <br>
 <br>
 **Note**
