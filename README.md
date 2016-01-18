@@ -8,7 +8,7 @@ nodemon
 
 ## How to Submit
 
-Afer all 3 branches are fixed according to the RE!ADME INSTRUCTIONS on each respective branch, __submit a PR__ to this repo.
+Afer all 3 branches are fixed according to the README INSTRUCTIONS on each respective branch, __submit a PR__ to this repo.
 
 ## Description
 ### HELP DESK APP 
