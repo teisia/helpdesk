@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var knex = require('../db/knex');
+var priorities = require('../files/priorities');
 
 function Tickets() {
   return knex('tickets');
@@ -36,7 +37,7 @@ router.post('/tickets/:id/update', function(req, res, next) {
 });
 
 router.get('/tickets/new', function(req, res, next) {
-  res.render('tickets/new',{button_text: "Create ticket"});
+  res.render('tickets/new',{button_text: "Create ticket", priorities: priorities});
 });
 
 router.get('/tickets/show', function(req, res, next) {
@@ -45,7 +46,7 @@ router.get('/tickets/show', function(req, res, next) {
 
 router.get('/tickets/:id/edit', function(req, res, next) {
   Tickets().where({id: req.params.id}).then(function (ticket) {
-    res.render('tickets/edit', {ticket: ticket[0], button_text: "Update ticket"});
+    res.render('tickets/edit', {ticket: ticket[0], button_text: "Update ticket", priorities: priorities});
   })
 });
 
