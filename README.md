@@ -6,8 +6,9 @@
 
 STORIES:
 
-As a user, when I go to either edit or create a new ticket, I should see the "priorities" listed as seen in the mockup , while maintaining the "iteraiton" approach of looping through the priority values in the code. 
+As a user, when I go to either edit or create a new ticket, I should see the "priorities" listed as seen in the mockup , while maintaining the "iteraiton" approach of looping through the priority values in the code.
 
 ( see image: )
+( hint: see views/tickets/form.jade )
 
 ![](https://github.com/Nmuta/helpdesk/blob/iteration/public/images/iteration.jpg)
