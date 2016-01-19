@@ -9,5 +9,5 @@ block content
       p= ticket.description 
       p 
         a.btn-link(href='/tickets/edit') Edit
-        form(action='#' method='')
+        form(action='/tickets/'+ticket.id+'/open' method='post')
           input.btn.btn-link(type='submit' value='Delete')

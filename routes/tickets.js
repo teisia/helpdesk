@@ -24,7 +24,7 @@ router.get('/tickets/closed', function(req, res, next) {
 
 router.post('/tickets', function(req, res, next) {
   Tickets().insert(req.body).then(function (tickets) {
-    res.redirect('tickets/');
+    res.redirect('/tickets');
   })
 });
 
